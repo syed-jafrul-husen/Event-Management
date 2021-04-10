@@ -1,0 +1,410 @@
+/*----------------------------------------------Menu Bar and footer ----------------------------------*/
+.wrapper{
+	/* background-color: red; */
+	max-width:1200px;
+	border:2px solid black;
+	width: 100%;
+	max-height: 1000px;
+	height:auto;
+	margin: 0 auto;
+	background-image: url("body1.jpg");
+}
+#menu{
+	background-color: black;
+	height:auto;
+	font-size: 2vw;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: right top;
+}
+#menu a{
+	font-size:18px;
+	text-decoration:none;
+	display:block;
+	float:left;
+	color: red;
+	padding:10px 15px;
+}
+
+#menu a:hover{
+	background-color: #002168;
+}
+
+#menu h1{
+	font-size:25px;
+	display: inline-block;
+	padding:1px 35px;
+	color: white;
+	font-style: italic;
+	text-shadow: 2px 3px blue;
+}
+.footer{
+	background-color: black;
+	height:auto;
+	font-size: 2vw;
+	width: 100%;
+	overflow: hidden;
+}
+.footer h3{
+	font-size: 20px;
+	display: inline-block;
+	padding: 2px 15px;
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+.footer span{
+	color:white;
+	font-size:20px;
+	margin-left:25%;
+}
+
+
+
+/*-----------------------------------Home Page design----------------------------------*/
+#body2Home{
+	background-color: white;
+	height:auto;
+	font-size: 3vw;
+	width: 100%;
+}
+#body2Home h2{
+	font-size:25px;
+	display: block;
+	padding:2px 10px;
+	color: DarkSlateGray;
+	text-align: center;
+}
+#body2Home a{
+	font-size:35px;
+	text-decoration:none;
+	padding:5px 30px;
+	border:2px solid green;
+	background-color:black;
+	color: red ;
+	margin-left:35%;
+	font-style: bold;
+	display:inline-block;
+}
+#body2Home a:hover{
+	background-color:blue;
+}
+	
+.parentHome{
+	background-color: white;
+	height:auto;
+	width: 100%;
+}
+.addHome{
+	background-color: white;
+	height:auto;
+	font-size: 1vw;
+	width: 33.33%;
+	height:360px;
+	float: left;
+}
+
+
+
+
+
+
+
+/*-----------------------------------Event Page design----------------------------------*/
+.body2Event{
+	background-color: GhostWhite;
+	height:auto;
+	font-size: 2vw;
+	width: 100%;
+}
+.body2Event h2{
+	font-size:25px;
+	display: inline-block;
+	padding:1px 5px;
+	color: maroon;
+	font-style: bold;
+}
+.addEvent{
+	background-color: FloralWhite ;
+	height:auto;
+	font-size: 1vw;
+	width: 100%;
+}
+.add2Event{
+	background-color: FloralWhite ;
+	height:auto;
+	font-size: 1.2vw;
+	width: 99.7%;
+	border: 2px solid navy;
+}
+.add2Event p{
+	text-indent: 10px;
+}
+
+
+
+/*-----------------------------------Schedule Page design----------------------------------*/
+.body2Schedule{
+	background-color: white;
+	height:auto;
+	font-size: 2vw;
+	width: 100%;
+}
+.body2Schedule h2{
+	font-size:10px;
+	display: inline-block;
+	padding:1px 5px;
+	color: maroon;
+	font-style: bold;
+}
+.parentSchedule{
+	background-color: white;
+	height:auto;
+	width: 100%;
+}
+.addSchedule{
+	background-color: white;
+	height:auto;
+	font-size: 1vw;
+	width: 33.333%;
+	float: left;
+}
+
+
+
+/*-----------------------------------Registration Page design----------------------------------*/
+.regiTitle{
+	background-color: #DE3539;
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 5px 0px;
+	font-size: 2.5vw;
+	font-style: bold;
+	text-align: center;
+}
+.body2Regi{
+	background-color: #781414  ;
+	height:auto;
+	font-size: 1.5vw;
+	width: 100%;
+}
+.body2Regi h2{
+	font-size:10px;
+	display: inline-block;
+	padding:1px 5px;
+	color: maroon;
+	font-style: bold;
+}
+
+
+input{
+    margin-bottom:10px;
+    margin-top: 20px;
+    width: 80%;
+	height: 40px;
+    margin-left: 2vw;
+	margin-right: 2vw;
+	background: transparent;
+	color: white;  
+}
+
+.registerbox input[type="text"],input[type="password"],input[type="email"]{
+    
+	border: none;
+    border-bottom: 1px solid white;
+    background: transparent;  
+    outline: none;
+    height: 40px;
+	width: 50%;
+    color: #fff;
+}
+
+.registerbox input[type="radio"]{
+   height: 20px;
+	width: 20px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+}
+
+.registerbox input[type="submit"],input[type="reset"]{
+    border: none;
+	width: 40%;
+    border-radius:50px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+  
+}
+
+.registerbox input[type="submit"],input[type="reset"]:hover{
+    cursor: pointer;
+	background-color: #02223B;
+
+}
+
+.registerbox input[type="checkbox"]{
+	width: 25px;
+	float:center;
+    height: 25px;
+    color: white;
+    background: green;
+  
+}
+
+
+
+
+
+/*-----------------------------------About Us Page design----------------------------------*/
+.body2About{
+	background-color: white;
+	height:auto;
+	font-size: 1.5vw;
+	width: 100%;
+}
+.body2About h2{
+	font-size:40px;
+	display: inline-block;
+	padding:1px 5px;
+	color: maroon;
+	font-style: bold;
+}
+.body2About h4{
+	font-size:2vw;
+	display: inline-block;
+	padding:1px 5px;
+	color: black;
+}
+
+
+
+
+
+/*-----------------------------------Sponsors Page design----------------------------------*/
+.parentImage{
+	background-color: white;
+	height:auto;
+	width: 100%;
+	max-width:1200px;
+	padding: 5px 0px;
+}
+.sponsorsLogo{
+	background-color: white;
+	height: auto;
+	width: 24.75%;
+	float: left;
+	border: 1px solid blue;
+}
+
+
+/*-----------------------------------Contact Page design----------------------------------*/
+.contactParent{
+	background-color: white;
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 5px 0px;
+}
+.contactTitle{
+	background-color: white;
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 5px 0px;
+	font-size: 2.5vw;
+	font-style: bold;
+	text-align: center;
+}
+.contactImage{
+	background-color: white;
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+}
+.contactBody{
+	background-color: white;
+	height: 350px;;
+	width: 33.33%;
+	float: left;
+	overflow:hidden;
+}
+
+.contactBody h4{
+	font-size: 20px;
+	text-align: center;
+}
+
+.contactBody p{
+	text-align: center;
+}
+
+/*-----------------------------------Log in Page design----------------------------------*/
+
+.loginMain{
+	background-image: url("signup.jpeg");
+	background-color: #00213D;
+	height: auto;
+	width: 33.33%;
+	margin:0 auto;
+	margin-top:10px;
+	/* display:inline; */
+}
+
+/*-----------------------------------Sign Up Page design----------------------------------*/
+
+.signUpMain{
+	background-image: url("signup.jpeg");
+	background-color: #00213D;
+	height: auto;
+	width: 40%;
+	margin:0 auto;
+}
+
+
+/*------------input Login Sign Up-------------*/
+input{
+    margin-bottom:10px;
+    margin-top: 20px;
+    width: 80%;
+	height: 40px;
+    margin-left: 2vw;
+	margin-right: 2vw;
+	background: black;
+	color: white;  
+}
+
+.logsign input[type="password"],input[type="text"],input[type="email"]{
+	background: black;
+	color: white;
+	width: 80%;
+	height: 40px;
+}
+
+.logsign input[type="submit"]{
+    border: none;
+	width: 40%;
+    border-radius:50px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+  
+}
+
+.logsign input[type="checkbox"]{
+	width: 25px;
+	float:center;
+    height: 25px;
+    color: white;
+    background: green;
+  
+}
+
+.logsign input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: #02223B;
+
+}
